@@ -4,7 +4,7 @@ const { program } = require('commander');
 
 program
   .version('1.0.0')
-  .description('A diff tool')
+  .description('Compares two configuration files and shows a difference.')
   .option('-h, --help', 'display help for command')
   .parse(process.argv);
 
